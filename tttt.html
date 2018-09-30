@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--- font-family: 'M PLUS 1p', sans-serif; --->
+<head>
+	<meta charset="utf-8">
+	<title>棒グラフ</title>
+	<style>
+		.grid {
+			display: grid;
+			grid-gap: 10px;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		}
+		.item {
+			border-radius: 10px;
+			background: #edf;
+			padding: 15px;
+			text-align: center;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		p {
+			text-align: left;
+		}
+	  </style>
+</head>
+
+<body>
+	あいうえお
+	<input type="range" value="1" min="1" max="10" step="1"
+	oninput="document.getElementById('output1').value=this.value">
+	<output id="output1">1</output>
+
+
+
+	<div class="grid">
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			  </p>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				 Nulla pharetra porta sagittis. Mauris et suscipit diam. Sed sollicitudin, dui at vulputate varius.
+			  </p>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				Integer ornare felis eu risus ultrices pharetra eu non velit.
+			  </p>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				Sed a maximus dui, quis semper felis. Quisque tincidunt dapibus pellentesque.
+			  </p>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				Sed eu sem lacinia, commodo orci non, vulputate neque.
+			  </p>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/240x150" alt="" />
+			  <p>
+				Integer ornare felis eu risus ultrices pharetra eu non velit.
+			  </p>
+
+</body>
+
+</html>
